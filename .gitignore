@@ -1,0 +1,47 @@
+## Scala.gitignore
+*.class
+*.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+## PlayFramework.gitignore
+# Ignore Play! working directory #
+bin/
+/db
+.eclipse
+/lib/
+/logs/
+/modules
+/project/project
+/project/target
+/target
+tmp/
+test-result
+server.pid
+*.eml
+/dist/
+.cache
+
+## custom
+out/
+.idea
+.metadata
+.settings
+.RemoteSystemsTempFiles
+.classpath
+.project
+.cache-main
+
