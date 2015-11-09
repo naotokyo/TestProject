@@ -79,5 +79,6 @@ object OtherCollectionSample extends App {
 
   useArray()
   useVector()
+  useTuple()
 
 }
